@@ -3,8 +3,6 @@ import { Document } from "mongoose";
 
 @Schema()
 export class Pokemon extends Document {
-
-
     // id: string -- Me lo da Mongo
 
     @Prop({
